@@ -51,14 +51,19 @@
 }
 
 #root {
-  width: 1126px;
+  background-color: #fdfdfb;
+  color: #565C64;
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1.55;
+  font-size: 16px;
+  /* width: 1126px;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
   border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; */
   box-sizing: border-box;
 }
 
@@ -108,4 +113,12 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
 }
