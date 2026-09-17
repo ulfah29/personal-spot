@@ -1,6 +1,7 @@
 import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Analytics } from '@vercel/analytics/react';
 import Sidebar from './components/Sidebar';
 import Content from './components/Content';
 
@@ -15,6 +16,7 @@ function App() {
           <Content />
         </div>
       </div>
+      <Analytics />
     </div>
   )
 }
