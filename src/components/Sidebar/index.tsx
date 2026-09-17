@@ -16,10 +16,12 @@ const listMenu = [{
 }, {
   name: 'Skills',
   content_id: 'skills',
-}, {
-  name: 'Project',
-  content_id: 'project',
-}, {
+}, 
+// {
+//   name: 'Project',
+//   content_id: 'project',
+// }, 
+{
   name: 'Education',
   content_id: 'education',
 }, {
