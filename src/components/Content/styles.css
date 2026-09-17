@@ -1,10 +1,19 @@
 .contentWrapper {
   padding: 32px 16px;
+
+  @media (max-width: 768px) {
+    padding: 16px;
+  }
 }
 
 .contentSection {
   padding: 64px 0;
   border-bottom: 1px solid #E6E4DC;
+  scroll-margin-top: 50px;
+
+  @media (max-width: 768px) {
+    padding: 32px 0;
+  }
 }
 
 .color-purple {

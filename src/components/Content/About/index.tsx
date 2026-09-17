@@ -1,8 +1,8 @@
 function About() {
   return (
-    <div className="contentSection">
+    <div className="contentSection" id="about">
       <div className="row">
-        <div className="col-6">
+        <div className="col-md-12 col-lg-6">
           <div className="sectionTitle mb-12">About</div>
           <p>I'm a frontend engineer with 8 years of experience building interfaces for e-commerce platforms. 
             Most recently, I worked on Tokopedia's payment team, building products across the purchase and 
@@ -12,7 +12,7 @@ function About() {
             using it. I enjoy working closely with design and product to turn complex requirements into simple, 
             intuitive experiences.</p>
         </div>
-        <div className="col-6">
+        <div className="col-lg-6 col-md-12">
           <div className="mb-12">
             <div className="sectionTitle">Based in</div>
             <div>Jakarta, Indonesia</div>

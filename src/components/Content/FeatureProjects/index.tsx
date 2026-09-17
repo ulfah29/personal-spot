@@ -1,6 +1,6 @@
 function FeatureProjects() {
   return (
-    <div className="contentSection">
+    <div className="contentSection" id="project">
       <div className="sectionTitle mb-12">FeatureProjects</div>
       <div className="row mb-16 projectRow">
         <div className="col-9">
@@ -27,9 +27,9 @@ function FeatureProjects() {
             <div>React · TypeScript · REST API</div>
           </div>
         </div>
-        <div className="col-3 projectLink">
+        {/* <div className="col-3 projectLink">
           <a href="#">View Case Study →</a>
-        </div>
+        </div> */}
       </div>
       <div className="row mb-16 projectRow">
         <div className="col-9">
@@ -56,9 +56,9 @@ function FeatureProjects() {
             <div>React · TypeScript · REST API</div>
           </div>
         </div>
-        <div className="col-3 projectLink">
+        {/* <div className="col-3 projectLink">
           <a href="#">View Case Study →</a>
-        </div>
+        </div> */}
       </div>
       <div className="row mb-16">
         <div className="col-9">

@@ -1,9 +1,9 @@
 function Skills() {
   return (
-    <div className="contentSection">
+    <div className="contentSection" id="skills">
       <div className="sectionTitle mb-12">Skills</div>
       <div className="row">
-        <div className="col-4">
+        <div className="col-lg-4 col-md-12">
           <h6><strong>Languages</strong></h6>
           <ul className="skillsList">
             <li>JavaScript</li>
@@ -11,7 +11,7 @@ function Skills() {
             <li>HTML & CSS</li>
           </ul>
         </div>
-        <div className="col-4">
+        <div className="col-lg-4 col-md-12">
           <h6><strong>Frontend</strong></h6>
           <ul className="skillsList">
             <li>React.js</li>
@@ -23,7 +23,7 @@ function Skills() {
             <li>Testing (Jest)</li>
           </ul>
         </div>
-        <div className="col-4">
+        <div className="col-lg-4 col-md-12">
           <h6><strong>Design & Workflow</strong></h6>
           <ul className="skillsList">
             <li>Figma</li>
