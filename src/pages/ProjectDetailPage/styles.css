@@ -1,0 +1,23 @@
+.projectDetailContainer {
+  @media (max-width: 768px) {
+    padding: 80px 32px;
+  }
+}
+
+.breadcrumb {
+  font-size: 14px;
+  margin: 16px 0;
+
+  .separator {
+    margin: 0 4px;
+  }
+}
+
+.detailContentWrapper {
+  font-size: 16px;
+}
+
+.contentSeparator {
+  border-bottom: 1px solid #E6E4DC;
+  padding: 32px 0;
+}

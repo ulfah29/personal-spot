@@ -1,22 +1,18 @@
-import './App.css';
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Sidebar from './components/Sidebar';
-import Content from './components/Content';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Homepage';
+import ProjectDetail from './pages/ProjectDetailPage';
+import ScrollToTop from './lib/ScrollToTop';
 
 function App() {
   return (
-    <div className="container container-wrapper">
-      <div className="row">
-        <div className="col-lg-3 border-end col-md-12">
-          <Sidebar />
-        </div>
-        <div className="col-lg-9 col-md-12">
-          <Content />
-        </div>
-      </div>
-    </div>
-  )
+    <BrowserRouter>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects/:projectId" element={<ProjectDetail />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

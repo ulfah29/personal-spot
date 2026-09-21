@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function FeatureProjects() {
   return (
     <div className="contentSection" id="project">
@@ -27,9 +29,9 @@ function FeatureProjects() {
             <div>React · TypeScript · REST API</div>
           </div>
         </div>
-        {/* <div className="col-3 projectLink">
-          <a href="#">View Case Study →</a>
-        </div> */}
+        <div className="col-3 projectLink">
+          <Link to={`/projects/0`}>View Case Study →</Link>
+        </div>
       </div>
       <div className="row mb-16 projectRow">
         <div className="col-9">
@@ -56,9 +58,9 @@ function FeatureProjects() {
             <div>React · TypeScript · REST API</div>
           </div>
         </div>
-        {/* <div className="col-3 projectLink">
-          <a href="#">View Case Study →</a>
-        </div> */}
+        <div className="col-3 projectLink">
+        <Link to={`/projects/1`}>View Case Study →</Link>
+        </div>
       </div>
       <div className="row mb-16">
         <div className="col-9">
@@ -87,8 +89,7 @@ function FeatureProjects() {
           </div>
         </div>
         <div className="col-3 projectLink">
-          <a href="#">Live Demo →</a>
-          <a href="#">View GitHub →</a>
+          <a href="https://github.com/ulfah29/kshop-dashboard">View GitHub →</a>
         </div>
       </div>
     </div>
